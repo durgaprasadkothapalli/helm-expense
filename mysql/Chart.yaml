@@ -1,4 +1,4 @@
 apiversion: v1
 name: mysql
-versions: 0.0.2
+versions: 0.0.1
 description: This is chart is manage mysql application
