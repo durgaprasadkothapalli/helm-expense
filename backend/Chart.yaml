@@ -1,4 +1,4 @@
-apiversion: v1
+apiversion: v2
 name: backend
 versions: 0.0.1
 description: This is chart is manage mysql application
