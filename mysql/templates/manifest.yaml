@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: mysql
@@ -26,7 +26,7 @@ spec:
         image: joindevops/mysql:{{ .Values.deployment.imageVersion }}
 ---
 kind: Service
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: mysql
   namespace: expense
