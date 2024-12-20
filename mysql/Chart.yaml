@@ -3,7 +3,7 @@
 # versions: 0.0.1
 # description: This is chart is manage mysql application
 
-apiVersion: v2
+apiVersion: v1
 name: mysql
 version: 0.0.1
 description: This chart manages the MySQL application
