@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: durgaprasadkothapalli/backend:{{ .Values.deployment.imageVersion }}
+        image: durgaprasadkothapalli/app2:{{ .Values.deployment.imageVersion }}
         resources:
           requests:
             cpu: 100m
