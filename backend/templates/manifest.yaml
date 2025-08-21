@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: joindevops/backend:{{ .Values.deployment.imageVersion }}
+        image: durgaprasadkothapalli/backend:{{ .Values.deployment.imageVersion }}
         resources:
           requests:
             cpu: 100m
